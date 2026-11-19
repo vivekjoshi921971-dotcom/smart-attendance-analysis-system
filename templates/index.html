@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Attendance Analysis System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <h1>Smart Attendance Analysis System</h1>
+            <p>Predictive Absenteeism & Punctuality Intelligence</p>
+        </div>
+        <div class="actions">
+            <label class="btn btn-secondary">
+                Upload CSV
+                <input type="file" id="csvUpload" accept=".csv" hidden>
+            </label>
+            <button id="resetBtn" class="btn btn-outline">Reset Sample Data</button>
+            <a href="/api/export-report" class="btn btn-primary">Export Risk Report (CSV)</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="alertBox" class="alert hidden"></div>
+
+        <!-- KPI Grid -->
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <span class="kpi-label">Overall Attendance Rate</span>
+                <strong class="kpi-value" id="kpiAttendance">--%</strong>
+                <span class="kpi-sub" id="kpiRecords">0 logs analyzed</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-label">Punctuality Rate</span>
+                <strong class="kpi-value" id="kpiPunctuality">--%</strong>
+                <span class="kpi-sub">On-time check-ins</span>
+            </div>
+            <div class="kpi-card danger">
+                <span class="kpi-label">High Risk Individuals</span>
+                <strong class="kpi-value" id="kpiHighRisk">0</strong>
+                <span class="kpi-sub">&lt;80% attendance or 3+ streak</span>
+            </div>
+            <div class="kpi-card warning">
+                <span class="kpi-label">Moderate Risk Watchlist</span>
+                <strong class="kpi-value" id="kpiModRisk">0</strong>
+                <span class="kpi-sub">Elevated tardiness / dip</span>
+            </div>
+        </section>
+
+        <!-- Charts Grid -->
+        <section class="charts-grid">
+            <div class="card chart-wide">
+                <h3>Daily Attendance Trend (Last 20 Working Days)</h3>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Attendance Status Breakdown</h3>
+                <canvas id="statusChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Department Attendance vs. Punctuality</h3>
+                <canvas id="deptChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Day-of-Week Absenteeism Pattern (%)</h3>
+                <canvas id="dowChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Risk Table -->
+        <section class="card table-section">
+            <div class="table-header">
+                <h3>Individual Attendance & Predictive Risk Roster</h3>
+                <div class="filters">
+                    <input type="text" id="searchInput" placeholder="Search name, ID, or department...">
+                    <select id="riskFilter">
+                        <option value="ALL">All Risk Levels</option>
+                        <option value="High Risk">High Risk</option>
+                        <option value="Moderate Risk">Moderate Risk</option>
+                        <option value="Low Risk">Low Risk</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Attendance %</th>
+                            <th>Punctuality %</th>
+                            <th>Present / Late / Absent</th>
+                            <th>Max Absence Streak</th>
+                            <th>Risk Score</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rosterBody"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let charts = {};
+        let rosterData = [];
+
+        function showAlert(msg, isError = false) {
+            const box = document.getElementById("alertBox");
+            box.textContent = msg;
+            box.className = isError ? "alert alert-error" : "alert alert-success";
+            setTimeout(() => box.classList.add("hidden"), 4000);
+        }
+
+        function destroyCharts() {
+            Object.values(charts).forEach(c => c.destroy());
+            charts = {};
+        }
+
+        function renderDashboard(data) {
+            // KPIs
+            document.getElementById("kpiAttendance").textContent = data.kpis.overall_attendance + "%";
+            document.getElementById("kpiRecords").textContent = `${data.kpis.total_records.toLocaleString()} logs (${data.kpis.total_entities} members)`;
+            document.getElementById("kpiPunctuality").textContent = data.kpis.overall_punctuality + "%";
+            document.getElementById("kpiHighRisk").textContent = data.kpis.high_risk_count;
+            document.getElementById("kpiModRisk").textContent = data.kpis.moderate_risk_count;
+
+            destroyCharts();
+
+            // 1. Trend Chart
+            charts.trend = new Chart(document.getElementById("trendChart"), {
+                type: "line",
+                data: {
+                    labels: data.daily_trend.map(d => d.date),
+                    datasets: [{
+                        label: "Attendance %",
+                        data: data.daily_trend.map(d => d.attendance_rate),
+                        borderColor: "#2563eb",
+                        backgroundColor: "rgba(37, 99, 235, 0.1)",
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: { responsive: true, scales: { y: { min: 50, max: 100 } } }
+            });
+
+            // 2. Status Doughnut
+            const statusLabels = Object.keys(data.status_counts);
+            charts.status = new Chart(document.getElementById("statusChart"), {
+                type: "doughnut",
+                data: {
+                    labels: statusLabels,
+                    datasets: [{
+                        data: statusLabels.map(k => data.status_counts[k]),
+                        backgroundColor: ["#16a34a", "#f59e0b", "#dc2626", "#64748b"]
+                    }]
+                },
+                options: { responsive: true }
+            });
+
+            // 3. Department Bar Chart
+            charts.dept = new Chart(document.getElementById("deptChart"), {
+                type: "bar",
+                data: {
+                    labels: data.dept_stats.map(d => d.department),
+                    datasets: [
+                        { label: "Attendance %", data: data.dept_stats.map(d => d.attendance_rate), backgroundColor: "#2563eb" },
+                        { label: "Punctuality %", data: data.dept_stats.map(d => d.punctuality_rate), backgroundColor: "#0d9488" }
+                    ]
+                },
+                options: { responsive: true, scales: { y: { min: 0, max: 100 } } }
+            });
+
+            // 4. Day of Week Absenteeism
+            const dowLabels = Object.keys(data.dow_absenteeism);
+            charts.dow = new Chart(document.getElementById("dowChart"), {
+                type: "bar",
+                data: {
+                    labels: dowLabels,
+                    datasets: [{
+                        label: "Absenteeism Rate (%)",
+                        data: dowLabels.map(k => data.dow_absenteeism[k]),
+                        backgroundColor: "#e11d48"
+                    }]
+                },
+                options: { responsive: true }
+            });
+
+            rosterData = data.entities;
+            renderTable();
+        }
+
+        function renderTable() {
+            const query = document.getElementById("searchInput").value.toLowerCase();
+            const riskFilter = document.getElementById("riskFilter").value;
+            const tbody = document.getElementById("rosterBody");
+            tbody.innerHTML = "";
+
+            const filtered = rosterData.filter(row => {
+                const matchesQuery = row.name.toLowerCase().includes(query) ||
+                                     row.entity_id.toLowerCase().includes(query) ||
+                                     row.department.toLowerCase().includes(query);
+                const matchesRisk = riskFilter === "ALL" || row.risk_level === riskFilter;
+                return matchesQuery && matchesRisk;
+            });
+
+            filtered.forEach(row => {
+                const badgeClass = row.risk_level === "High Risk" ? "badge-high" :
+                                   row.risk_level === "Moderate Risk" ? "badge-mod" : "badge-low";
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td><strong>${row.entity_id}</strong></td>
+                    <td>${row.name}</td>
+                    <td>${row.department}</td>
+                    <td>${row.attendance_rate}%</td>
+                    <td>${row.punctuality_rate}%</td>
+                    <td>${row.present_days} / ${row.late_days} / ${row.absent_days}</td>
+                    <td>${row.max_consecutive_absences} days</td>
+                    <td><strong>${row.risk_score}</strong>/100</td>
+                    <td><span class="badge ${badgeClass}">${row.risk_level}</span></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function loadAnalytics() {
+            const res = await fetch("/api/analytics");
+            const json = await res.json();
+            if (json.status === "success") renderDashboard(json.data);
+            else showAlert(json.message, true);
+        }
+
+        document.getElementById("csvUpload").addEventListener("change", async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const formData = new FormData();
+            formData.append("file", file);
+            const res = await fetch("/api/upload", { method: "POST", body: formData });
+            const json = await res.json();
+            if (json.status === "success") {
+                renderDashboard(json.data);
+                showAlert("CSV uploaded and analyzed successfully!");
+            } else {
+                showAlert(json.message, true);
+            }
+            e.target.value = "";
+        });
+
+        document.getElementById("resetBtn").addEventListener("click", async () => {
+            const res = await fetch("/api/reset-sample", { method: "POST" });
+            const json = await res.json();
+            if (json.status === "success") {
+                renderDashboard(json.data);
+                showAlert("Sample dataset regenerated.");
+            }
+        });
+
+        document.getElementById("searchInput").addEventListener("input", renderTable);
+        document.getElementById("riskFilter").addEventListener("change", renderTable);
+
+        loadAnalytics();
+    </script>
+</body>
+</html>

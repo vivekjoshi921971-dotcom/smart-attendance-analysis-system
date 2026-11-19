@@ -1,0 +1,376 @@
+entity_id,name,department,date,status,check_in_time,check_out_time
+STU-101,Aarav Verma,Computer Science,2026-10-05,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-05,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-05,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-05,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-05,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-05,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-05,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-05,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-05,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-05,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-05,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-05,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-05,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-05,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-05,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-06,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-06,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-06,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-06,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-06,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-06,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-06,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-06,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-06,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-06,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-06,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-06,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-06,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-06,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-06,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-07,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-07,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-07,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-07,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-07,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-07,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-07,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-07,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-07,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-07,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-07,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-07,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-07,Late,09:18,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-07,Absent,,
+STU-115,Yashwant Rao,Information Tech,2026-10-07,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-08,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-08,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-08,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-08,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-08,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-08,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-08,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-08,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-08,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-08,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-08,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-08,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-08,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-08,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-08,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-09,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-09,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-09,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-09,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-09,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-09,Late,09:18,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-09,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-09,Absent,,
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-09,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-09,Late,09:18,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-09,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-09,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-09,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-09,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-09,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-12,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-12,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-12,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-12,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-12,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-12,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-12,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-12,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-12,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-12,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-12,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-12,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-12,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-12,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-12,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-13,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-13,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-13,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-13,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-13,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-13,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-13,Late,09:18,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-13,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-13,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-13,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-13,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-13,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-13,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-13,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-13,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-14,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-14,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-14,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-14,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-14,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-14,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-14,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-14,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-14,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-14,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-14,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-14,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-14,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-14,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-14,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-15,Excused,,
+STU-102,Ishita Sharma,Computer Science,2026-10-15,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-15,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-15,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-15,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-15,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-15,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-15,Late,09:18,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-15,Excused,,
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-15,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-15,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-15,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-15,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-15,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-15,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-16,Absent,,
+STU-102,Ishita Sharma,Computer Science,2026-10-16,Absent,,
+STU-103,Kunal Singh,Computer Science,2026-10-16,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-16,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-16,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-16,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-16,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-16,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-16,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-16,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-16,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-16,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-16,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-16,Absent,,
+STU-115,Yashwant Rao,Information Tech,2026-10-16,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-19,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-19,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-19,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-19,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-19,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-19,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-19,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-19,Absent,,
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-19,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-19,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-19,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-19,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-19,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-19,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-19,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-20,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-20,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-20,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-20,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-20,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-20,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-20,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-20,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-20,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-20,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-20,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-20,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-20,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-20,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-20,Late,09:18,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-21,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-21,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-21,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-21,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-21,Late,09:18,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-21,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-21,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-21,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-21,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-21,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-21,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-21,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-21,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-21,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-21,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-22,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-22,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-22,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-22,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-22,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-22,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-22,Late,09:18,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-22,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-22,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-22,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-22,Late,09:18,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-22,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-22,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-22,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-22,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-23,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-23,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-23,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-23,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-23,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-23,Absent,,
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-23,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-23,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-23,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-23,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-23,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-23,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-23,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-23,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-23,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-26,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-26,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-26,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-26,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-26,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-26,Absent,,
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-26,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-26,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-26,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-26,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-26,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-26,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-26,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-26,Absent,,
+STU-115,Yashwant Rao,Information Tech,2026-10-26,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-27,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-27,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-27,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-27,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-27,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-27,Absent,,
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-27,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-27,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-27,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-27,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-27,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-27,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-27,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-27,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-27,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-28,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-28,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-28,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-28,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-28,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-28,Absent,,
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-28,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-28,Absent,,
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-28,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-28,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-28,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-28,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-28,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-28,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-28,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-29,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-29,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-29,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-10-29,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-29,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-29,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-29,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-29,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-29,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-29,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-29,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-29,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-10-29,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-29,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-29,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-10-30,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-10-30,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-10-30,Late,09:18,16:30
+STU-104,Nandini Joshi,Computer Science,2026-10-30,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-10-30,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-10-30,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-10-30,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-10-30,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-10-30,Absent,,
+STU-110,Tanya Agarwal,Mechanical Eng,2026-10-30,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-10-30,Late,09:18,16:30
+STU-112,Riya Kapoor,Information Tech,2026-10-30,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-10-30,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-10-30,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-10-30,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-11-02,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-11-02,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-11-02,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-11-02,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-11-02,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-11-02,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-11-02,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-11-02,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-11-02,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-11-02,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-11-02,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-11-02,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-11-02,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-11-02,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-11-02,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-11-03,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-11-03,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-11-03,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-11-03,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-11-03,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-11-03,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-11-03,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-11-03,Absent,,
+STU-109,Devansh Mishra,Mechanical Eng,2026-11-03,Late,09:18,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-11-03,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-11-03,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-11-03,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-11-03,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-11-03,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-11-03,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-11-04,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-11-04,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-11-04,Absent,,
+STU-104,Nandini Joshi,Computer Science,2026-11-04,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-11-04,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-11-04,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-11-04,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-11-04,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-11-04,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-11-04,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-11-04,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-11-04,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-11-04,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-11-04,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-11-04,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-11-05,Late,09:18,16:30
+STU-102,Ishita Sharma,Computer Science,2026-11-05,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-11-05,Present,08:55,16:30
+STU-104,Nandini Joshi,Computer Science,2026-11-05,Late,09:28,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-11-05,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-11-05,Absent,,
+STU-107,Aditya Kumar,Electronics & Comm,2026-11-05,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-11-05,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-11-05,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-11-05,Present,08:55,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-11-05,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-11-05,Present,08:55,16:30
+STU-113,Manish Tiwari,Information Tech,2026-11-05,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-11-05,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-11-05,Present,08:55,16:30
+STU-101,Aarav Verma,Computer Science,2026-11-06,Present,08:55,16:30
+STU-102,Ishita Sharma,Computer Science,2026-11-06,Present,08:55,16:30
+STU-103,Kunal Singh,Computer Science,2026-11-06,Late,09:18,16:30
+STU-104,Nandini Joshi,Computer Science,2026-11-06,Present,08:55,16:30
+STU-105,Rohan Gupta,Electronics & Comm,2026-11-06,Present,08:55,16:30
+STU-106,Sneha Patel,Electronics & Comm,2026-11-06,Present,08:55,16:30
+STU-107,Aditya Kumar,Electronics & Comm,2026-11-06,Present,08:55,16:30
+STU-108,Pooja Nair,Electronics & Comm,2026-11-06,Present,08:55,16:30
+STU-109,Devansh Mishra,Mechanical Eng,2026-11-06,Present,08:55,16:30
+STU-110,Tanya Agarwal,Mechanical Eng,2026-11-06,Late,09:34,16:30
+STU-111,Harsh Vardhan,Mechanical Eng,2026-11-06,Present,08:55,16:30
+STU-112,Riya Kapoor,Information Tech,2026-11-06,Absent,,
+STU-113,Manish Tiwari,Information Tech,2026-11-06,Present,08:55,16:30
+STU-114,Shruti Saxena,Information Tech,2026-11-06,Present,08:55,16:30
+STU-115,Yashwant Rao,Information Tech,2026-11-06,Present,08:55,16:30
